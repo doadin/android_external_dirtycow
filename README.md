@@ -10,7 +10,7 @@ CVE-2016-5195 (dirty cow/dirtycow/dirtyc0w) proof of concept for Android
 ```sh
 lunch your_device-eng
 
-make -j5 dirtycow recowvery-applypatch recowvery-app_process64 recowvery-run-as
+make -j5 dirtycow root-app_process64 root-run-as
 ```
 
 ### Running:
