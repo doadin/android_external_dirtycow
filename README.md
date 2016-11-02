@@ -2,6 +2,7 @@
 CVE-2016-5195 (dirty cow/dirtycow/dirtyc0w) proof of concept for Android
 
 ## Rootter, an exploit tool to root "secure" systems with **unlocked** bootloaders
+## Based off of Jcadduono's recowvery project
 
 ## Usage:
 
