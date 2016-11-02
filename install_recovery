@@ -1,0 +1,10 @@
+#!/system/bin/sh
+# Modified install_recovery script to disable selinux
+# by SirMordred
+#
+
+setenforce 0
+
+write /sys/fs/selinux/enforce 0
+
+exit
